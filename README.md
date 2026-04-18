@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <b>Practice makes the man perfect</b>
+  <b>HOD Message: Through practice, you can achieve anything.</b>
 </p>
 
 ---
