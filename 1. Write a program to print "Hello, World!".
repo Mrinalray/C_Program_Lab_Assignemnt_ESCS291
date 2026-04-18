@@ -1,0 +1,27 @@
+## 📌 Program 1: Print "Hello, World!"
+
+### 💻 Code
+
+```c id="k2m8xp"
+#include <stdio.h>
+
+int main() {
+    printf("Hello, World!");
+    return 0;
+}
+```
+
+### 📖 Explanation
+
+* `#include <stdio.h>` → Used for input/output functions
+* `int main()` → Entry point of the program
+* `printf("Hello, World!");` → Prints the message
+* `return 0;` → Ends the program successfully
+
+### ✅ Output
+
+```id="n7q4vs"
+Hello, World!
+```
+
+---
