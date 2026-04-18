@@ -30,3 +30,13 @@ It is designed for beginners to understand fundamental concepts step by step.
 Improve C programming skills through consistent practice.
 
 ---
+## ⚠️ Disclaimer
+
+I, Mrinal Roy, have created and stored these programs on GitHub as part of my personal learning and practice in C programming.
+
+You are free to use, refer to, and learn from this code for educational purposes. However, it is recommended to understand the logic and try implementing the programs on your own for better learning.
+
+If you use this code, giving proper credit would be appreciated.
+
+This repository is intended purely for educational purposes and continuous practice.
+
