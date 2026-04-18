@@ -9,6 +9,9 @@
 </p>
 
 ---
+## 📘 Practice Questions (PDF)
+
+[📄 View Full Question](assets/C_Program_Lab_Assignemnt_ESCS291pdf)
 
 ## 📌 About
 
