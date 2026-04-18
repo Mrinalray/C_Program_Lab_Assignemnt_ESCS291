@@ -11,7 +11,7 @@
 ---
 ## 📘 Practice Questions (PDF)
 
-[📄 View Full Question](assets/C_Program_Lab_Assignemnt_ESCS291pdf)
+[📄 View Full Question](assets/C_Program_Lab_Assignemnt_ESCS291.pdf)
 
 ## 📌 About
 
