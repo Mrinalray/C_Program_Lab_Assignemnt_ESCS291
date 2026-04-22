@@ -5,45 +5,38 @@
 ```c id="m3n8qx"
 #include <stdio.h>
 
-// Function to add two matrices using pointers
-void addMatrix(int *a, int *b, int *result, int rows, int cols) {
-    int i, j;
-
-    for (i = 0; i < rows; i++) {
-        for (j = 0; j < cols; j++) {
-            *(result + i * cols + j) =
-            *(a + i * cols + j) + *(b + i * cols + j);
+void addMatrices(int *A, int *B, int *C, int r, int c) {
+    for (int i = 0; i < r; i++) {
+        for (int j = 0; j < c; j++) {
+            *((C + i*c) + j) = *((A + i*c) + j) + *((B + i*c) + j);
         }
     }
 }
 
 int main() {
-    int a[10][10], b[10][10], result[10][10];
-    int i, j, rows, cols;
+    int r, c;
 
-    printf("Enter number of rows and columns: ");
-    scanf("%d %d", &rows, &cols);
+    printf("Enter rows and columns: ");
+    scanf("%d %d", &r, &c);
 
-    printf("Enter elements of first matrix:\n");
-    for (i = 0; i < rows; i++) {
-        for (j = 0; j < cols; j++) {
-            scanf("%d", &a[i][j]);
-        }
-    }
+    int A[r][c], B[r][c], C[r][c];
 
-    printf("Enter elements of second matrix:\n");
-    for (i = 0; i < rows; i++) {
-        for (j = 0; j < cols; j++) {
-            scanf("%d", &b[i][j]);
-        }
-    }
+    printf("Enter elements of Matrix A:\n");
+    for (int i = 0; i < r; i++)
+        for (int j = 0; j < c; j++)
+            scanf("%d", &A[i][j]);
 
-    addMatrix((int *)a, (int *)b, (int *)result, rows, cols);
+    printf("Enter elements of Matrix B:\n");
+    for (int i = 0; i < r; i++)
+        for (int j = 0; j < c; j++)
+            scanf("%d", &B[i][j]);
 
-    printf("Sum of matrices:\n");
-    for (i = 0; i < rows; i++) {
-        for (j = 0; j < cols; j++) {
-            printf("%d ", result[i][j]);
+    addMatrices((int *)A, (int *)B, (int *)C, r, c);
+
+    printf("Sum Matrix:\n");
+    for (int i = 0; i < r; i++) {
+        for (int j = 0; j < c; j++) {
+            printf("%d ", C[i][j]);
         }
         printf("\n");
     }
