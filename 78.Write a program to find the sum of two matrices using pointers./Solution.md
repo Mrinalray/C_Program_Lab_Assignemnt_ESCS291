@@ -68,3 +68,4 @@ Sum of matrices:
 ```
 
 ---
+### A special thanks to Somasree Giri for identifying and correcting an issue in the code.
